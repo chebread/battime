@@ -1,4 +1,7 @@
 # battime
+
+[[한국어](README.kr.md)]
+
 `battime` is a program that checks the battery usage time of your computer.
 
 ## Feature
@@ -7,12 +10,14 @@
 - Battery Information: View detailed information about your device's battery.
 
 ## How to use
+### Check battery status
 ```shell
 battime
 ```
 - When charging, Battery Charge Time is displayed in red.
 - When not charging, Remaining Battery Time is displayed in cyan.
 
+### View detailed battery information
 ```shell
 battime --info / -i
 ```

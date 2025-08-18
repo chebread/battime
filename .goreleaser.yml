@@ -23,7 +23,7 @@ brews:
   -
     repository:
       owner: chebread
-      name: battime
+      name: homebrew-battime
       branch: master
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 

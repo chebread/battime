@@ -8,6 +8,7 @@
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Installation](#installation)
+- [Updating](#updating)
 - [License](#license)
 
 ## Feature
@@ -44,6 +45,19 @@ brew install battime
 3. Unachive the downloaded file.
 4. Execute the battime executable file.
 5. For easier access, consider adding battime executable file to your system's PATH environment variable.
+
+## Updating
+### On macOS
+If you installed `battime` using Homebrew, you can easily upgrade to the latest version when it's released.
+
+```shell
+brew upgrade battime
+```
+
+### For Other OS
+For other OS, you will need to download the new version from [the GitHub Releases page](https://github.com/chebread/battime/releases) for `battime`.
+
+Download the latest release for your system and replace your old executable file with the new one.
 
 ## License
 MIT LICENSE &copy; 2025 Cha Haneum

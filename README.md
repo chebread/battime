@@ -4,6 +4,12 @@
 
 `battime` is a program that checks the battery usage time of your computer.
 
+## Table of Contents
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Installation](#installation)
+- [License](#license)
+
 ## Feature
 - Estimated Full Charge Time: See how much time is remaining until your battery is fully charged.
 - Estimated Remaining Battery Time: Get an estimate of how much usage time you have left on your current battery charge.
@@ -24,6 +30,15 @@ battime --info / -i
 - Your battery information (state, capacity, voltage, charge rate) is displayed.
 
 ## Installation
+### On macOS
+You can install `battime` with Homebrew:
+```shell
+brew tap chebread/battime
+
+brew install battime
+```
+
+### For other OS
 1. Visit [the GitHub Releases page](https://github.com/chebread/battime/releases) for `battime`.
 2. Download the appropriate file for your operating system and architecture.
 3. Unachive the downloaded file.

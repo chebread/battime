@@ -19,3 +19,16 @@ snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
   disable: true
+brews:
+  -
+    tap:
+      owner: chebread
+      name: battime
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+
+    homepage: "https://github.com/chebread/battime"
+    description: "Check the battery usage time."
+    license: "MIT"
+
+    install: |
+      bin.install "battime"

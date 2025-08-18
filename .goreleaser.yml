@@ -21,9 +21,10 @@ changelog:
   disable: true
 brews:
   -
-    tap:
+    repository:
       owner: chebread
       name: battime
+      branch: deploy
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 
     homepage: "https://github.com/chebread/battime"

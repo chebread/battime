@@ -24,7 +24,7 @@ brews:
     repository:
       owner: chebread
       name: battime
-      branch: deploy
+      branch: master
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 
     homepage: "https://github.com/chebread/battime"

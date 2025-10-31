@@ -32,6 +32,14 @@ func main() {
 		fmt.Println("error: Could not get battery info!")
 		return
 	}
+
+
+	// 데스크탑 감지
+	if len(batteries) == 0 {
+		fmt.Println("This system does not support batteries.")
+		return
+	}
+	
 	var batteryData = batteries[0]                 // batteries: 구조체
 	var batState = batteryData.State               // Charging, Discharging
 	var curBatCapMWh float64 = batteryData.Current // 현재 충전된  배터리 용량 (mWh)

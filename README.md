@@ -1,7 +1,4 @@
 # battime
-
-[[한국어](README.kr.md)]
-
 `battime` is a program that checks the battery usage time of your computer.
 
 ## Table of Contents

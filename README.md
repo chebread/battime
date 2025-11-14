@@ -1,6 +1,11 @@
 # battime
 `battime` is a program that checks the battery usage time of your computer.
 
+## Learning Go
+This project is designed to help me learn this area of TGPL.
+- ch2: Program Structure 
+- ch3: Basic Data Types
+
 ## Table of Contents
 - [Features](#features)
 - [How to use](#how-to-use)
